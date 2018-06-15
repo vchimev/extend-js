@@ -9,6 +9,8 @@ var Application = android.app.Application.extend("org.myApp.Application", {
         // At this point modules have already been initialized
 
         // Enter custom initialization code here
+
+        console.log("onCreate");
     },
     attachBaseContext: function(base) {
         superProto.attachBaseContext.call(this, base);
